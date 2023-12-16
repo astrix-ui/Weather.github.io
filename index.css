@@ -1,0 +1,108 @@
+/* INITIALISATION  */
+body{
+    background-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 470px;
+    background-color: rgb(49, 49, 49);
+    margin: 30px auto ;
+    border-radius: 40px;
+    padding: 45px 40px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    padding: 10px 25px;
+    /* text-align: center; */
+    color: rgb(29, 29, 29);
+    font-weight: 560;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+.search button{
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+}
+.weather{
+    color: white;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 20px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+    transition: width 0.5s, height 0.5s;}
+
+.error{
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(193, 192, 192);
+    font-weight: 500;
+    display: none;
+}
+nav{
+    font-size: 20px;
+    /* font-weight: 300; */
+    width: 100%;
+    text-align: center;
+    color: rgb(185, 180, 180);
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 0px 0px 30px 30px;
+}
